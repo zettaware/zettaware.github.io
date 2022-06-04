@@ -7,9 +7,6 @@
   <a href="https://github.com/zettaware/zettawarehub.io.git/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/zettaware/zettawarehub.io.git/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/KazookiTV/Zetta's Website" />
-  </a>
   <a href="https://twitter.com/Polygonalic" target="_blank">
     <img alt="Twitter: Polygonalic" src="https://img.shields.io/twitter/follow/Polygonalic.svg?style=social" />
   </a>
