@@ -1,0 +1,76 @@
+$accent: #95f
+$background: #fff
+$txt: #333
+
+body
+    background-color: $background
+    background-image: url(/src/img/background.svg)
+    background-repeat: repeat-y
+    background-position: center
+    background-size: contain
+    color: $txt
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-size: 2vw
+    margin: 0
+    scroll-padding: 64px
+
+nav
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    background-color: rgba(255, 255, 255, 0.5)
+    backdrop-filter: blur(3px)
+    ul
+        list-style: none
+        margin: 0
+        padding: 0
+        display: flex
+        flex-direction: row
+        justify-content: left
+        align-items: center
+
+    li
+        padding: 0.5em 1.5em
+
+        &:nth-child(2)
+            margin-left: auto
+
+
+header, section 
+    padding: 6em
+
+a
+    color: $accent
+    font-weight: bold
+    text-decoration: none
+
+    svg
+        width: 2vw
+    &:hover
+        text-decoration: underline
+
+.grid 
+    // a grid with 3 columns and if theres more than 3 items, it will wrap
+    display: grid
+    grid-gap: 1em
+    grid-auto-rows: minmax(min-content, auto)
+    grid-auto-flow: row dense
+
+    div
+        padding: 0 1em
+        background: rgba( 255, 255, 255, 0.25 )
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
+        backdrop-filter: blur( 4px )
+        -webkit-backdrop-filter: blur( 4px )
+        border-radius: 10px
+        border: 1px solid rgba( 255, 255, 255, 0.18 )
+
+    &:nth-child(even)
+        grid-template-columns: repeat(2, 1fr)
+    &:nth-child(odd)
+        grid-template-columns: repeat(2, 1fr)
+    
+
+.centre
+    text-align: center

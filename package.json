@@ -1,0 +1,24 @@
+{
+  "name": "zettaware.github.io",
+  "version": "1.0.0",
+  "description": "The website for Zetta",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.html",
+    "build": "sass --watch src/css/main.sass src/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zettaware/zettaware.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zettaware/zettaware.github.io/issues"
+  },
+  "homepage": "https://zettaware.github.io/",
+  "devDependencies": {
+    "webpack": "^5.72.1"
+  }
+}
